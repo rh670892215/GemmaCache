@@ -1,0 +1,1 @@
+完整介绍见：[使用golang实现简单的分布式缓存](https://rh670892215.github.io/2023/09/10/%E4%BD%BF%E7%94%A8golang%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E7%BC%93%E5%AD%98/)
