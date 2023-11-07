@@ -68,8 +68,8 @@ func (h *HTTPPool) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 // Log info with server name
-func (p *HTTPPool) Log(format string, v ...interface{}) {
-	log.Printf("[Server %s] %s", p.self, fmt.Sprintf(format, v...))
+func (h *HTTPPool) Log(format string, v ...interface{}) {
+	log.Printf("[Server %s] %s", h.self, fmt.Sprintf(format, v...))
 }
 
 // PickPeer 根据key在哈希环中查找缓存位置节点
